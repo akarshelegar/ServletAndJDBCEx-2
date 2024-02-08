@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet-JDBC Assignment</title>
+</head>
+<body>
+	<form action="reg" method="post">
+		<h1>Welcome to palle</h1>
+		<label for="tbName">Name:</label>
+		<input type="text" id="tbName" name="tbName" required="required">
+		<br>
+		<label for="tbEmail">Email:</label>
+		<input type="email" id="tbEmail" name="tbEmail" required="required">
+		<br>
+		<label for="tbQual">Qualification:</label>
+		<input type="text" id="tbQual" name="tbQual" required="required">
+		<br>
+		<label for="tbpwd">Password:</label>
+		<input type="password" id="tbPwd" name="tbPwd" required="required">
+		<br>
+		<label for="ddlState">States:</label>
+		<select id="ddlstate" name="ddlState" required="required">
+			<option value="none">----select----</option>
+			<option value="Karnataka">KA</option>
+			<option value="AndraPradesh">AP</option>
+			<option value="Tamilnadu">TN</option>
+			<option value="Kerala">KL</option>
+		</select>
+		<br>
+		<input type="submit" name="btnSubmit" value="Register"/>
+	</form>
+
+</body>
+</html>
